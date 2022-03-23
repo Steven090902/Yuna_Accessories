@@ -127,7 +127,7 @@ p {
 .btn {
     display: inline-block;
     background-color: #ffb3c1;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
@@ -189,4 +189,65 @@ p {
     color: rgb(253, 195, 59);
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.single-product {
+    margin-top: 80px;
+}
+
+.single-product .col-2 img {
+    padding: 0;
+}
+
+.single-product .col-2 {
+    padding: 20px;
+}
+
+.single-product select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+input:focus {
+    outline: none;
+}
+
+.single-product .fa {
+    color: rgb(253, 195, 59);
+    margin-left: 10px;
+}
+
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.col-2 {
+    flex-basis: 40%;
+    min-width: 300px;
+}
+
+.qtyBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding-top: 3vh;
+    padding-right: 250px;
+    padding-left: 100px;
 }
