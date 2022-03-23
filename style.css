@@ -305,7 +305,7 @@ ul {
 
 .footer hr {
     border: none;
-    background: floralwhite;
+    background: rgb(0, 0, 0);
     height: 1px;
     margin: 20px 0;
 }
